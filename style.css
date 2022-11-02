@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    background-color: black;
+  }
+  h1{
+      color:rgb(0, 132, 255);
+  }
+  h2{
+      color:rgb(0, 132, 255);
+  }
+/*  img{
+      max-width: 450px; max-height: 450px;
+  }*/
+  #siteDescription{
+      color: cornflowerblue;
+  }
+ .mainpics{
+     height: 750px;
+     width: 100%
+     ;
+     object-fit: cover;
+ }
+ .dogspic{
+    width: 400px;
+    height: 400px;
+}
+#nav-bar{
+      position:bottom;
+      overflow: hidden;
+      justify-content: center;
+      text-align: center;
+  }
+#nav-bar li{
+    
+      display: inline;
+      background-color: cornflowerblue;
+      padding: 10px 14px;
+      margin-left: 150px;
+      text-align: justify;
+      justify-content: center;
+  }
+  table, th, td {
+      border: 1px solid white;
+      color: cornflowerblue;
+    }
+#buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornflowerblue;
+}
+button{
+    height: 50px; width: 50px;
+    background-color: cornflowerblue;
+    color: white;
+}
+#message{
+    color: cornflowerblue;
+    position:bottom;
+      overflow: hidden;
+      justify-content: center;
+      text-align: center;
+}
+#send{
+    
+    background-color: cornflowerblue;
+    padding: 5px 70px;
+   
+    
+}
+
+.glow {
+    
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
